@@ -1,0 +1,56 @@
+name: breaking_news
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: any
+  get_storage: any
+  http: any
+  csv: any
+  path_provider: any
+  shared_preferences: any
+  cached_network_image: any
+  image_picker: any
+  url_launcher: any
+  provider: any
+
+  image_picker_for_web: any
+  shared_preferences_web: any
+  url_launcher_web: any
+  shimmer: any
+  webview_flutter: any
+  webview_flutter_android: any
+  webview_flutter_wkwebview: any
+
+  flutter_localizations: # <-- Add this
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/iconnews.png"
